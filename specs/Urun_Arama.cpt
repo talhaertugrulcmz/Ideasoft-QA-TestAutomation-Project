@@ -1,0 +1,17 @@
+Created by ertug on 4/1/2024
+
+This is a concept file with following syntax for each concept.
+
+# MyIdeaSoft URL Kontrolu ve Urun Ismı Yazma
+* "1" saniye kadar bekle
+* Sayfa Kontrolü
+* "input[type='text']" li arama text alanina tiklama "ürün" ürün ismi yazma
+* "1" saniye kadar bekle
+
+
+# Urun Aratma
+* "//*[@id='header']/div/div/div/div[2]/div/form/button" li butona tikla
+* "1" saniye kadar bekle
+
+
+

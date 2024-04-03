@@ -1,0 +1,16 @@
+Created by ertug on 4/1/2024
+
+This is a concept file with following syntax for each concept.
+
+# Sayfa Scroll
+* "div[class='showcase']" li ürüne kadar sayfayı kaydır
+* "1" saniye kadar bekle
+
+
+# Urun Sepete Ekleme ve Sepete Eklenme Mesaj Kontrolu
+* "div[class='showcase']" li ürüne tıkla ,"qty-input" li kutucuga tikla "//*[@id='qty-input']/option[5]" li adet sec ve "a[class='add-to-cart-button']" lü sepete ekle butona tıkla
+* "1" saniye kadar bekle
+* Pop-up Kontrolü
+* "2" saniye kadar bekle
+
+
