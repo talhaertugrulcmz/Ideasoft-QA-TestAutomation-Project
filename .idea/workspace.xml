@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec8362c3-195d-4fa4-b964-5d1edadfaf79" name="Changes" comment="Ideasoft QA Engineer Test Automation - Talha Ertugrul Comez">
-      <change beforePath="$PROJECT_DIR$/.gauge/lastRunCmd.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gauge/lastRunCmd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_3_2024_11_20_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_3_2024_11_20_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/gauge.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/gauge.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/html-report/specs/Ideasoft.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-report/specs/Ideasoft.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/api.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/api.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/Ideasoft.spec" beforeDir="false" afterPath="$PROJECT_DIR$/specs/Ideasoft.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/SepetEkleme.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/SepetEkleme.cpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/Sepet_Kontrol.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/Sepet_Kontrol.cpt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/Urun_Arama.cpt" beforeDir="false" afterPath="$PROJECT_DIR$/specs/Urun_Arama.cpt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

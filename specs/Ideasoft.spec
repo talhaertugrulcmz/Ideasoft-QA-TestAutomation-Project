@@ -8,12 +8,12 @@ To execute this specification, use `mvn test`
 MyIdeasoft
 -----------
 
-* MyIdeaSoft URL Kontrolu ve Urun Ismı Yazma
+* MyIdeaSoft URL Kontrol ve Urun Ismı Yazma
 
-* Urun Aratma
+* Urun Arama
 
-* Sayfa Scroll
+* Sayfa scroll
 
-* Urun Sepete Ekleme ve Sepete Eklenme Mesaj Kontrolu
+* Urun Sepete Ekleme ve Sepete Eklenme Mesaj Kontrol
 
-* Urun Sepete Ekleme Ve Adet Kontrol
+* Urun Sepete Ekleme Ve Adet Kontrolu
