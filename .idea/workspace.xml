@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec8362c3-195d-4fa4-b964-5d1edadfaf79" name="Changes" comment="Ideasoft QA Engineer Take-Home Assesment - Talha Ertugrul Comez">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/default.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/java.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/default/user.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/env/firefox/browser.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/Ideasoft.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/SepetEkleme.cpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/Sepet_Kontrol.cpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/Urun_Arama.cpt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/method/Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/step/StepImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-    </list>
+    <list default="true" id="ec8362c3-195d-4fa4-b964-5d1edadfaf79" name="Changes" comment="Ideasoft QA Engineer Test Automation - Talha Ertugrul Comez" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,10 +123,20 @@
       <option name="presentableId" value="Default" />
       <updated>1711931904442</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ideasoft QA Engineer Test Automation - Talha Ertugrul Comez">
+      <option name="closed" value="true" />
+      <created>1712160092979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712160092979</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ideasoft QA Engineer Take-Home Assesment - Talha Ertugrul Comez" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ideasoft QA Engineer Take-Home Assesment - Talha Ertugrul Comez" />
+    <MESSAGE value="Ideasoft QA Engineer Test Automation - Talha Ertugrul Comez" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ideasoft QA Engineer Test Automation - Talha Ertugrul Comez" />
   </component>
 </project>

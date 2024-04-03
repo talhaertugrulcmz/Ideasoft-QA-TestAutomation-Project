@@ -1,0 +1,59 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: A number (20) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+2024-04-02 03:37:48 INFO  Reflections:219 scan - Reflections took 976 ms to scan 155 urls, producing 4144 keys and 20931 values
+{"logLevel":"debug","message":"gauge-java took 1817milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1817"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 60186"}
+{"logLevel":"info","message":"Listening on port:60186"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrunIsmi' and 'step.StepImplementation.UrunIsmi'"}
+{"logLevel":"debug","message":"Found {} li arama text alanina tiklama {} ürün ismi yazma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.MesajKontrolu' and 'step.StepImplementation.MesajKontrolu'"}
+{"logLevel":"debug","message":"Found Pop-up Kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrunSepetEkleme' and 'step.StepImplementation.UrunSepetEkleme'"}
+{"logLevel":"debug","message":"Found {} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrlKontrol' and 'step.StepImplementation.UrlKontrol'"}
+{"logLevel":"debug","message":"Found Sayfa Kontrolü in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrunArama' and 'step.StepImplementation.UrunArama'"}
+{"logLevel":"debug","message":"Found {} li butona tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.SepetKontrol' and 'step.StepImplementation.SepetKontrol'"}
+{"logLevel":"debug","message":"Found {} li butona tikla ve sayi kontrol yap in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.SayfaScroll' and 'step.StepImplementation.SayfaScroll'"}
+{"logLevel":"debug","message":"Found {} li ürüne kadar sayfayı kaydır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li butona tikla ve sayi kontrol yap : public void SepetKontrol(String css) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li arama text alanina tiklama {} ürün ismi yazma : public void UrunIsmi(String css, String text) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li butona tikla : public void UrunArama(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla : public void UrunSepetEkleme(String css1, String id, String xpath, String css2) throws InterruptedException"}
+{"logLevel":"debug","message":"\tPop-up Kontrolü : public void MesajKontrolu() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li ürüne kadar sayfayı kaydır : public void SayfaScroll(String css)"}
+{"logLevel":"debug","message":"\tSayfa Kontrolü : public void UrlKontrol()"}
+2024-04-02 03:37:49 INFO  Reflections:219 scan - Reflections took 363 ms to scan 155 urls, producing 4076 keys and 16224 values
+Apr 02, 2024 3:37:49 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698}) on port 46733
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 02, 2024 3:37:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Sayfa Kontrolü' using 'class step.StepImplementation.UrlKontrol"}
+2024-04-02 03:37:52 INFO  StepImplementation:32 UrlKontrol - Dogru URL adresi...
+{"logLevel":"debug","message":"Executing '{} li arama text alanina tiklama {} ürün ismi yazma' using 'class step.StepImplementation.UrunIsmi"}
+{"logLevel":"debug","message":"Executing '{} li butona tikla' using 'class step.StepImplementation.UrunArama"}
+{"logLevel":"debug","message":"Executing '{} li ürüne kadar sayfayı kaydır' using 'class step.StepImplementation.SayfaScroll"}
+{"logLevel":"debug","message":"Executing '{} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla' using 'class step.StepImplementation.UrunSepetEkleme"}
+{"logLevel":"debug","message":"Executing 'Pop-up Kontrolü' using 'class step.StepImplementation.MesajKontrolu"}
+2024-04-02 03:38:00 INFO  StepImplementation:99 MesajKontrolu - SEPETINIZE EKLENMISTIR ... Urununuz basarili bir sekilde sepete eklenmistir.
+{"logLevel":"debug","message":"Executing '{} li butona tikla ve sayi kontrol yap' using 'class step.StepImplementation.SepetKontrol"}
+2024-04-02 03:38:05 INFO  StepImplementation:119 SepetKontrol - Urun Adedi = 5
+2024-04-02 03:38:05 INFO  StepImplementation:123 SepetKontrol - Sepetteki Urun Adediniz = 5 
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

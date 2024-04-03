@@ -1,0 +1,48 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (10) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1765milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1765"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64503"}
+{"logLevel":"info","message":"Listening on port:64503"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrunIsmi' and 'step.StepImplementation.UrunIsmi'"}
+{"logLevel":"debug","message":"Found {} li arama text alanina tiklama {} ürün ismi yazma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.TextKontrol' and 'step.StepImplementation.TextKontrol'"}
+{"logLevel":"debug","message":"Found {} li sayfada  yazısı kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrunSepetEkleme' and 'step.StepImplementation.UrunSepetEkleme'"}
+{"logLevel":"debug","message":"Found {} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.UrunArama' and 'step.StepImplementation.UrunArama'"}
+{"logLevel":"debug","message":"Found {} li butona tikla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'step.StepImplementation.SayfaScroll' and 'step.StepImplementation.SayfaScroll'"}
+{"logLevel":"debug","message":"Found {} li ürüne kadar sayfayı kaydır in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} li arama text alanina tiklama {} ürün ismi yazma : public void UrunIsmi(String css, String text) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li butona tikla : public void UrunArama(String xpath) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla : public void UrunSepetEkleme(String css1, String id, String xpath, String css2) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} li ürüne kadar sayfayı kaydır : public void SayfaScroll(String css)"}
+{"logLevel":"debug","message":"\t{} li sayfada  yazısı kontrol et : public void TextKontrol(String xpath)"}
+Apr 01, 2024 9:35:59 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 123.0.6312.86 (9b72c47a053648d405376c5cf07999ed626728da-refs/branch-heads/6312@{#698}) on port 54620
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 01, 2024 9:36:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} li arama text alanina tiklama {} ürün ismi yazma' using 'class step.StepImplementation.UrunIsmi"}
+{"logLevel":"debug","message":"Executing '{} li butona tikla' using 'class step.StepImplementation.UrunArama"}
+{"logLevel":"debug","message":"Executing '{} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla' using 'class step.StepImplementation.UrunSepetEkleme"}
+{"logLevel":"debug","message":"Executing '{} li sayfada  yazısı kontrol et' using 'class step.StepImplementation.TextKontrol"}
+ÜRÜN EKLENMEDİİİ
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
