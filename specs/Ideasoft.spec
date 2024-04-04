@@ -5,8 +5,8 @@ This is an executable specification file. This file follows markdown syntax. Eve
 To execute this specification, use `mvn test`
 
 
-MyIdeasoft
------------
+IdeaSoft Test Automation
+-------------------------
 
 * MyIdeaSoft URL Kontrol ve Urun Ismı Yazma
 
