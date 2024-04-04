@@ -1,17 +1,18 @@
 ## About this template
 
 Ideasoft QA Web Otomasyon Projesi
+-----------------------------------
 
-Geliştirme Ortamı : Intelij
+* Geliştirme Ortamı : Intelij
 
-Kullanılan Programlama Dili: Java
+* Kullanılan Programlama Dili: Java
 
-Framework : Gauge
+* Framework : Gauge
 
-Kütüphane : Selenium
+* Kütüphane : Selenium
 
 Projede Yararlanılan Kaynaklar :
+---------------------------------------
+* pom.xml için = mvnrepository.com
 
-pom.xml için = mvnrepository.com
-
-Methodlarda kullanılan hoverElement metodu için = browserstack.com internet siteleri kullanılmıştır.
+* Methodlarda kullanılan hoverElement metodu için = browserstack.com internet siteleri kullanılmıştır.
