@@ -14,4 +14,4 @@ Projede Yararlanılan Kaynaklar :
 
 pom.xml için = mvn.repository.com
 
-Methodlarda kullanılan hoverElement metodu için : browserstack.com internet siteleri kullanılmıştır.
+Methodlarda kullanılan hoverElement metodu için = browserstack.com internet siteleri kullanılmıştır.
