@@ -1,0 +1,26 @@
+Index: logs/api.log
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/logs/api.log b/logs/api.log
+--- a/logs/api.log	(revision eed1cecdce67a88594901f118b54d692fcea2a43)
++++ b/logs/api.log	(date 1712196567846)
+@@ -4278,3 +4278,17 @@
+ 04-04-2024 00:04:26.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* {} li ürüne tıkla ,{} li kutucuga tikla {} li adet sec ve {} lü sepete ekle butona tıkla" parameterizedStepValue:"* <div[class='showcase']> li ürüne tıkla ,<qty-input> li kutucuga tikla <//*[@id='qty-input']/option[5]> li adet sec ve <a[class='add-to-cart-button']> lü sepete ekle butona tıkla" parameters:"div[class='showcase']" parameters:"qty-input" parameters:"//*[@id='qty-input']/option[5]" parameters:"a[class='add-to-cart-button']"}}
+ 04-04-2024 00:04:26.604 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"* Pop-up Kontrolü"}
+ 04-04-2024 00:04:26.604 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"* Pop-up Kontrolü" parameterizedStepValue:"* Pop-up Kontrolü"}}
++04-04-2024 05:08:33.782 [Gauge] [INFO] Initializing concepts cache with 5 concepts
++04-04-2024 05:08:33.782 [Gauge] [DEBUG] Adding concepts from C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\Sepet_Kontrol.cpt
++04-04-2024 05:08:33.782 [Gauge] [DEBUG] Adding concepts from C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\Urun_Arama.cpt
++04-04-2024 05:08:33.782 [Gauge] [DEBUG] Adding concepts from C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\Urun_Arama.cpt
++04-04-2024 05:08:33.782 [Gauge] [DEBUG] Adding concepts from C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\SepetEkleme.cpt
++04-04-2024 05:08:33.782 [Gauge] [DEBUG] Adding concepts from C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\SepetEkleme.cpt
++04-04-2024 05:08:33.782 [Gauge] [INFO] Initializing specs cache with 1 specs
++04-04-2024 05:08:33.782 [Gauge] [DEBUG] Adding specs from C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\Ideasoft.spec
++04-04-2024 05:08:33.782 [Gauge] [INFO] Initializing steps cache with 4 steps
++04-04-2024 05:08:33.782 [Gauge] [INFO] Gauge daemon initialized and listening on port: 59397
++04-04-2024 05:08:33.783 [Gauge] [DEBUG] Watching directory: C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs
++04-04-2024 05:08:33.783 [Gauge] [DEBUG] Found 4 files
++04-04-2024 05:09:27.842 [Gauge] [DEBUG] Spec file added / modified: C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\Ideasoft.spec
++04-04-2024 05:09:27.846 [Gauge] [DEBUG] Spec file added / modified: C:\Users\ertug\IdeaProjects\IdeaSoftTest\specs\Ideasoft.spec
