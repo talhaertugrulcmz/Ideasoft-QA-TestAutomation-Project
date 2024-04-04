@@ -3,8 +3,11 @@
 Ideasoft QA Web Otomasyon Projesi
 
 Geliştirme Ortamı : Intelij
+
 Kullanılan Programlama Dili: Java
+
 Framework : Gauge
+
 Kütüphane : Selenium
 
 Projede Yararlanılan Kaynaklar :
