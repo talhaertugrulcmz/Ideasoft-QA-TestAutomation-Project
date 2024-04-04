@@ -1,6 +1,6 @@
 ## About this template
 
-Görev-1 Ideasoft QA Web Otomasyon Projesi 
+Görev 1 - Ideasoft QA Web Otomasyon Projesi 
 -----------------------------------
 
 * Geliştirme Ortamı : Intelij
