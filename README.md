@@ -12,6 +12,6 @@ Kütüphane : Selenium
 
 Projede Yararlanılan Kaynaklar :
 
-pom.xml için = mvn.repository.com
+pom.xml için = mvnrepository.com
 
 Methodlarda kullanılan hoverElement metodu için = browserstack.com internet siteleri kullanılmıştır.
